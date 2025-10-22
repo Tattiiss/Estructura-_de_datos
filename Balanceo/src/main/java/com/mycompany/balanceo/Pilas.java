@@ -30,12 +30,7 @@ public class Pilas<T> {
             return null;
         }
     }
-
-    public T peek(){
-        return this.datos.get(this.datos.size()-1);
-    }
     
-
     @Override
     public String toString(){
         String str= "";
@@ -47,3 +42,4 @@ public class Pilas<T> {
 
     
 }
+
